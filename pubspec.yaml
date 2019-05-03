@@ -23,6 +23,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  google_maps_flutter: ^0.5.7
+  curved_navigation_bar: ^0.2.1
+  http: ^0.12.0+1
+  firebase_core: ^0.3.0  # add dependency for Firebase Core
+  firebase_database: ^2.0.3
+
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +73,16 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+
+  fonts:
+#    - family: segoe-ui
+#      fonts:
+#        - asset: assets/fonts/segoe-ui/segoeui.ttf
+
+
+    - family: sans-francisco
+      fonts:
+        - asset: assets/fonts/sans-francisco/regular.otf
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
